@@ -1,0 +1,169 @@
+/* 
+.media{
+    font-size: smaller;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+
+} */
+table{
+    border: 2px solid rgb(87, 83, 83);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 15px rgb(47 0 199 / 68%);
+    position: absolute;
+    right: 124px;
+    top: 1038px;
+    padding: -6px 132px;
+}
+caption{
+    border: 2px solid rgb(255, 254, 254);
+    background-color: rgb(53, 53, 53);
+    box-shadow: -1px -3px 31px 5px rgb(71, 77, 163);
+
+}
+tr{
+    border: 2px solid rgb(253, 253, 253); 
+}
+th{
+    border: 2px solid rgb(255, 254, 254); 
+    height: 30px;
+}
+td{
+    border: 2px solid rgb(250, 247, 247); 
+    height: 30px;
+}
+hr{
+    background-color: #00000059;
+    size: 117px;
+    width: 1350px;
+    height: 45px;
+    position: absolute;
+    top: 966px;
+    right: -1px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+hr:hover{
+    background-color: rgb(0, 84, 158);
+    box-shadow: 0px 0px 20px 5px rgba(7, 6, 112, 0.664);
+}
+.icon1{
+    position: absolute;
+    top: 153px;
+    right: 90px;
+   /* border: 2px solid rgba(1, 1, 189, 0.322); */
+   border-radius: 20px;
+   background-color: rgba(14, 14, 59, 0.322);
+   padding: -2px;
+   box-shadow: 0px 0px 35px 19px rgb(17, 17, 83);
+}
+
+.icon1:hover{
+    box-shadow: 0px 0px 35px 19px rgba(182, 28, 28, 0.575);
+    padding: 10px;
+}
+
+.icon2:hover{
+    box-shadow: 0px 0px 35px 19px rgba(182, 28, 28, 0.575);
+    padding: 10px;
+
+}
+
+.icon3:hover{
+    box-shadow: 0px 0px 35px 19px rgba(182, 28, 28, 0.575);
+    padding: 10px;
+
+}
+
+.icon4:hover{
+    box-shadow: 0px 0px 35px 19px rgba(182, 28, 28, 0.575);
+    padding: 10px;
+
+}
+
+.icon5:hover{
+    box-shadow: 0px 0px 35px 19px rgba(182, 28, 28, 0.575);
+    padding: 10px;
+
+}
+
+.icon2{
+    position: absolute;
+    top: 250px;
+    right: 34px;
+   /* border: 2px solid rgba(1, 1, 189, 0.322); */
+   border-radius: 20px;
+   background-color: rgba(14, 14, 59, 0.322);
+   padding: -2px;
+   box-shadow: 0px 0px 35px 19px rgb(17, 17, 83);
+}
+.icon3{
+    position: absolute;
+    top: 350px;
+    right: 90px;
+   /* border: 2px solid rgba(1, 1, 189, 0.322); */
+   border-radius: 20px;
+   background-color: rgba(14, 14, 59, 0.322);
+   padding: -2px;
+   box-shadow: 0px 0px 35px 19px rgb(17, 17, 83);
+}
+.icon4{
+    position: absolute;
+    top: 450px;
+    right: 34px;
+   /* border: 2px solid rgba(1, 1, 189, 0.322); */
+   border-radius: 20px;
+   background-color: rgba(14, 14, 59, 0.322);
+   padding: -2px;
+   box-shadow: 0px 0px 35px 19px rgb(17, 17, 83);
+}
+.icon5{
+    position: absolute;
+    top: 550px;
+    right: 90px;
+   /* border: 2px solid rgba(1, 1, 189, 0.322); */
+   border-radius: 20px;
+   background-color: rgba(14, 14, 59, 0.322);
+   padding: -2px;
+   box-shadow: 0px 0px 35px 19px rgb(17, 17, 83);
+}
+.form-group input:hover {
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+    box-shadow: 0px 0px 10px 15px rgba(0, 40, 216, 0.452);
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(45deg);
+    }
+    
+   
+    100% {
+        transform: rotate(405deg);
+    }
+    
+    
+    
+}
+.ele{
+    
+    right: 40%;
+    width: 200px;
+    height: 200px;
+    border: 40px solid #000;
+    position: absolute;
+    top: 659px;
+    right: 149px;
+    transition:all 4s ease-in-out;
+
+    animation: rotate 40s linear infinite, fadeIn 1s linear forwards;
+    /* animation-delay: 7s; */
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 10px rgba(44, 44, 238, 0.788);
+    
+}
+/* .ele :hover{
+    border: 40px solid rgb(173, 153, 153);
+} */

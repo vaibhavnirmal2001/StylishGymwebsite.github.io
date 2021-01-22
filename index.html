@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        /* css reset */
+        body {
+
+            margin: 0px;
+            padding: 0px;
+            background: url(img1.jpeg);
+            size: auto;
+        }
+
+        .left {
+
+            display: inline-block;
+            font-size: larger;
+            color: rgb(255, 255, 255);
+
+            position: absolute;
+            left: 66px;
+            top: 107px;
+        }
+
+        .mid {
+
+            background-color: black;
+            opacity: 0.8;
+            width: -8%;
+
+            margin: 29px auto;
+            top: 3;
+
+            border: 2px solid rgb(46, 33, 33);
+            border-radius: -16px;
+        }
+
+        .right {
+            position: absolute;
+            right: 82px;
+            top: 32px;
+            display: inline-block;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+            padding: 3px 27px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .navbar li a:hover {
+            background-color: gray;
+           
+            box-shadow: 0px 0px 10px 5px rgba(219, 2, 2, 0.842);
+
+        }
+
+        .btn {
+            background-color: black;
+            color: rgb(243, 241, 241);
+            padding: 10px 20px;
+
+            margin: 3px;
+            border: 3px solid rgb(161, 158, 158);
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: gray;
+            box-shadow: 0px 0px 10px 15px rgba(4, 2, 143, 0.692);
+
+        }
+
+        .left img {
+            opacity: 0.8;
+            border: 2px solid rgb(3, 2, 2);
+            box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+            /* transition-property: border;
+            transition-duration: 1s; */
+            cursor: pointer;
+        }
+
+        /* .left img :hover{
+            box-shadow: 0px 0px 20px 5px rgb(197, 30, 30);
+            border: 4px solid blue;
+
+        } */
+        .form-group {
+            color: beige;
+            border: 4px solid rgb(2, 2, 2);
+            border-radius: 15px;
+            background-color: #1f28388f;
+            top: 40px;
+            margin-top: 232px;
+            margin-left: 257px;
+            margin-right: 612px;
+            padding: 70px;
+            font-size: medium;
+            box-shadow: 0px 0px 20px 5px rgb(100, 98, 233);
+
+        }
+
+        .form-group input {
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 200px;
+            height: 20px;
+            box-shadow: 10px 10px 15px rgb(0, 0, 0);
+        }
+
+        .new {
+            color: blue;
+            margin-left: 200px;
+            position: absolute;
+            right: 751px;
+            top: 1036px;
+            display: inline-block;
+            color: white;
+            border: 2px solid;
+            box-shadow: 0px 0px 20px 5px rgb(100, 98, 233);
+            background: rgb(22, 19, 19);
+            padding: 24px;
+            width: 250px;
+            border: 5px solid rgb(7, 7, 10);
+            border-radius: 15px;
+            background-color: #1f28388f;
+        }
+        .new:hover{
+            padding: 27px;
+            box-shadow: 0px 0px 20px 5px rgb(98, 213, 233);
+        }
+        .h6{
+            font-size: 40px;
+            position: absolute;
+            left: 279px;
+             top: 247px;
+                font-family: cursive;
+             color: #f3f3f3f6;
+             /* background-color: #6b47b8; */
+             border-radius: 15px;
+             padding: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h6 class="h6">Join Us</h6>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="logo.jpg" alt="" height="70">
+            <div>GYM CENTER</div>
+
+        </div>
+        <div class="mid">
+            <!-- box for navigation bar -->
+
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">survices</a></li>
+                <li> <a href="#">contact us</a></li>
+                <li> <a href="#">Help</a></li>
+
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <!-- box for button  -->
+
+            <button class="btn">MSG</button><button class="btn">E-MAIL</button>
+        </div>
+    </header>
+
+    <form>
+        <div class="form-group"><br><br>
+
+            <b>Name :<br><br></b><input type="text" size="30" placeholder="enter your name " required><br><br>
+            <b>E-Mail :<br><br></b><input type="text" size="30" placeholder="enter valid email id" required><br><br>
+            <b>Password:</b><br><br><input type="password" size="30" placeholder="enter min 8 char password"
+                required><br><br>
+
+            <div class="con">
+                <center> <button class="btn">Submit</button></center>
+
+
+
+    </form><br><br>
+    <form></form>
+    <div class="new">
+        <h3>Terms and conditions :</h3>
+        <b>
+            <li>All the conditions .</li>
+            <li>Mobile allowed.</li>
+            <li>These are terms and conditions.</li>
+            <li><a href="#">read more</a></li>
+
+        </b>
+    </div>
+    <!-- <div class="media">
+            <li><i class="fa fa-facebook-official" aria-hidden="true"></i> </li>
+           
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+
+            <li><i class="fa fa-github" aria-hidden="true"></i></li>
+
+            <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+        </div> -->
+
+
+    <br>
+    <table>
+        <caption>Time Table</caption>
+        <tr>
+            <th>Monday-Tuesday</th>
+            <th>wednesday-thursday</th>
+            <th>Friday-saturday</th>
+        </tr>
+
+        <tr>
+            <td>Morning</td>
+            <td>5 am</td>
+            <td>9 am</td>
+        </tr>
+
+        <tr>
+            <td>Evening</td>
+            <td>6 pm</td>
+            <td>8 pm</td>
+        </tr>
+        <hr>
+    </table>
+    </form>
+
+  
+  
+    <div class="icon1">
+        <a href="#"><img src="fb.jfif" alt="" height="40px" width="40px"></a><br> <br>
+        
+    </div>
+    <div class="icon2">
+        <a href="#"><img src="insta.jfif" alt="" height="40px" width="40px"></a><br><br>
+       
+    </div>
+    <div class="icon3">
+        
+       <a href="#"> <img src="github.png" alt="" height="40px" width="40px"></a><br><br>
+       
+    </div>
+    <div class="icon4">
+        
+       <a href="#" target="_blank"> <img src="mail.jfif" alt="" height="40px" width="40px"></a><br><br>
+       
+    </div>
+    <div class="icon5">
+        
+        
+       <a href="#"> <img src="twiter.png" alt="" height="40px" width="40px"></a><br><br>
+    </div>
+    <div class="ele"></div>
+
+</body>
+
+</html>
